@@ -1,3 +1,16 @@
+* {
+    /*border-top: 10px solid #1098ad;*/
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #444444;
+
+    border-top: 10px solid red;
+}
+
+/*
 h1,
 h2,
 h3,
@@ -7,6 +20,7 @@ li {
     font-family: sans-serif;
     color: #444444;
 }
+*/
 
 h1,
 h2,
@@ -130,7 +144,7 @@ a:active {
 }
 
 /* Resolving conflicts */
-#copyright {
+/*#copyright {
     color: red;
 }
 
@@ -144,4 +158,13 @@ a:active {
 
 footer p {
     color: green;
+}*/
+
+/*nav a:link,
+nav strong {
+    font-size: 18px;
+}*/
+
+nav {
+    font-size: 18px;
 }
