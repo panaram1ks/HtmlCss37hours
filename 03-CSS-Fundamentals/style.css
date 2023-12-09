@@ -102,6 +102,46 @@ li:nth-child(odd) {
     color: red;
 }
 
-article p:last-child {
+/* Misconception: this won't work!*/
+article p:first-child {
     color: red;
+}
+
+/* Styling links */
+a:link {
+    color: #1098ad;
+    text-decoration: none;
+}
+
+a:visited {
+    /* color: #444444;*/
+    color: #1098ad;
+}
+
+a:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline dotted orangered;
+}
+
+a:active {
+    background-color: black;
+    font-style: italic;
+}
+
+/* Resolving conflicts */
+#copyright {
+    color: red;
+}
+
+.copyright {
+    color: blue;
+}
+
+.text {
+    color: yellow;
+}
+
+footer p {
+    color: green;
 }
