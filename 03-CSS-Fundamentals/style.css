@@ -61,6 +61,7 @@ li {
 }
 */
 
+
 h1,
 h2,
 h3 {
@@ -98,20 +99,7 @@ p {
     margin-bottom: 15px;
 }
 
-ol,
-ul {
-    margin-left: 50px;
-    margin-bottom: 20px;
-}
 
-li {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-li:last-child {
-    margin-bottom: 0;
-}
 
 /*footer p {
     font-size: 16px;
@@ -142,6 +130,22 @@ article header p {
 
 .no-bullets {
     list-style: none;
+}
+
+ol,
+ul {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    /* display: inline;*/
+}
+
+li:last-child {
+    margin-bottom: 0;
 }
 
 /*.first-li {
@@ -211,4 +215,18 @@ nav strong {
 .post-img {
     width: 100%;
     height: auto;
+}
+
+nav a:link {
+    /*  background-color: orangered;
+    margin: 20px;
+    padding: 20px;
+    display: block;*/
+    margin-right: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+nav a:link:last-child {
+    margin-right: 0;
 }
