@@ -12,6 +12,13 @@ body {
     border-top: 10px solid red;
 }
 
+.container {
+    width: 700px;
+    /* margin-left: auto;
+    margin-right: auto;*/
+    margin: 0 auto;
+}
+
 nav {
     font-size: 18px;
 }
