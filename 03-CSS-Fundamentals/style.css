@@ -21,10 +21,6 @@ body {
     /* position: relative;*/
 }
 
-nav {
-    font-size: 18px;
-}
-
 article {
     margin-bottom: 60px;
 }
@@ -218,6 +214,11 @@ nav strong {
 .post-img {
     width: 100%;
     height: auto;
+}
+
+nav {
+    font-size: 18px;
+    text-align: center;
 }
 
 nav a:link {
