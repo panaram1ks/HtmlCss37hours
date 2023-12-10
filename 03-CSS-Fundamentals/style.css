@@ -79,7 +79,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 30px;
 }
 
@@ -242,4 +242,36 @@ button {
     position: absolute;
     bottom: 50px;
     right: 50px;
+}
+
+h1::first-letter {
+    font-style: normal;
+    margin-right: 5px;
+}
+
+/*p::first-line {
+    color: green;
+}*/
+
+/* json sibling selector */
+h3+p {
+    color: green;
+}
+
+h2 {
+    /*background-color: #444444;*/
+    position: relative;
+}
+
+h2::after {
+    content: "TOP";
+    color: black;
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -15px;
+    right: -25px;
 }
