@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.product {
+  border: 3px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.product-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+  background-color: #bebbbb;
+  padding: 15px;
+}
+
+.price {}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+.add-card {
+  background-color: black;
+  border: none;
+  border-top: 3px solid black;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+}
+
+.add-card:hover {
+
+  background-color: white;
+  color: black;
+}
+
+.sale {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+}
+
+
+
+.cube {
+  width: 30px;
+  height: 30px;
+  margin-top: 50px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.black-cube {
+  background-color: black;
+}
+
+.blue-cube {
+  background-color: blue;
+}
+
+.red-cube {
+  background-color: red;
+}
+
+.orange-cube {
+  background-color: orange;
+}
+
+.green-cube {
+  background-color: green;
+}
+
+.brown-cube {
+  background-color: brown;
+}
