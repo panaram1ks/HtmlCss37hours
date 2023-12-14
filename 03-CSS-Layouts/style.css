@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width: 700px;
+    width: 1200px;
     /* margin-left: auto;
     margin-right: auto;*/
     margin: 0 auto;
@@ -26,7 +26,7 @@ article {
 }
 
 .main-header {
-    background-color: #6a6262;
+    background-color: #dad3d3;
     /* padding: 20px;
     padding-left: 50px;
     padding-top: 30px;*/
@@ -306,5 +306,22 @@ nav {
 .clearfix::after {
     content: '';
     display: block;
+    clear: both;
+}
+
+article {
+    /*background-color: green;*/
+    width: 825px;
+    float: left;
+}
+
+aside {
+    /*background-color: red;*/
+    width: 300px;
+    float: right;
+}
+
+footer {
+    /*  background-color: yellow;*/
     clear: both;
 }
