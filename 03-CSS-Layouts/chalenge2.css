@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -122,4 +123,19 @@ body {
 
 .brown-cube {
   background-color: brown;
+}
+
+.containerFloat {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+}
+
+img {
+  width: 150px;
+}
+
+.containerImg {
+  width: 150px;
+  float: left;
 }
