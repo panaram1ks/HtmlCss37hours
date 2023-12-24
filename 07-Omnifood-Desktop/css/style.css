@@ -1,0 +1,67 @@
+/*
+--- 01 Typography system
+
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weight:
+
+- Line height:
+Default: 1
+
+--- 02 COLORS
+
+- Primary: #e67e22
+
+- Tints
+- Shades
+- Accents
+- Greys #555
+
+--- 05 Shadows
+
+--- 06 Border-Radius
+
+--- 07 Whitespaces
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /*font-size: 10px;*/
+  /* can create problem if user
+  want to change default browser font-size */
+  /* font-size -> = 1rem  */
+
+  /*  10px / 16px = 0.625 = 62.5% Procentage of user's
+  browser font-size setting  */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.test {
+  background-color: red;
+  /*width: 1000px;*/
+  /*max-width: 1000px;*/
+
+  /* 1rem = 16px   50 x 16 = 8000px */
+  max-width: 40em;
+  color: #fff;
+  font-size: 2rem;
+  padding: 4rem;
+}
